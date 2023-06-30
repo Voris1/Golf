@@ -1,0 +1,120 @@
+.gallery-page {
+  transition: all 1s ease;
+  h1 {
+    color: rgba(84, 98, 102, 1);
+    padding: 10px 0;
+    font-family: "Source Sans 3";
+    font-size: 36px;
+    line-height: 20px;
+    font-weight: 600;
+    line-height: 18px;
+    letter-spacing: 0.8px;
+    position: absolute;
+    margin: 650px;
+    margin-top: 85px;
+  }
+  .glavniy {
+    color: rgba(84, 98, 102, 1);
+    padding: 15px 120px;
+    font-family: "Source Sans 3";
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 1px;
+    position: absolute;
+    word-spacing: 5px;
+  }
+
+  .gallery-content {
+    margin-top: 6%;
+
+    .count {
+      transition: all ease 3s;
+      transition-duration: 2s;
+      position: sticky;
+      background-color: silver;
+
+      .count-content {
+        margin-left: 20%;
+        margin-top: -210px;
+        position: absolute;
+
+        i {
+          cursor: pointer;
+          position: absolute;
+          margin: 10px 94%;
+          font-size: 36px;
+          font-weight: 300px;
+          color: rgba(84, 98, 102, 1);
+        }
+
+        .count-dot {
+          position: absolute;
+          margin: -40px 400px;
+          cursor: pointer;
+        }
+
+        p {
+          cursor: pointer;
+          position: absolute;
+          margin: -80px 0 0 70px;
+          color: rgba(42, 76, 81, 1);
+          font-family: "Source Sans 3";
+          font-size: 24px;
+          font-weight: 500;
+          letter-spacing: 0.7px;
+          line-height: 24px;
+          color: white;
+        }
+      }
+    }
+    .gallery-cards {
+      transition: all 1s ease;
+      display: flex;
+      gap: 40px;
+      margin-left: 11%;
+      margin-top: 1%;
+
+      .gallery-card {
+        width: 340px;
+        align-items: center;
+        text-align: center;
+        cursor: pointer;
+
+        img {
+          width: 380px;
+        }
+
+        p {
+          color: rgba(42, 76, 81, 1);
+          font-family: "Source Sans 3";
+          font-size: 17px;
+          font-weight: 500;
+          letter-spacing: 0.7px;
+          line-height: 24px;
+          padding: 20px 0;
+        }
+      }
+    }
+    .gallery-button {
+      align-items: center;
+      display: flex;
+      justify-content: center;
+      .gallery-btn {
+        background-color: #18b3d4;
+        color: white;
+        width: 170px;
+        height: 60px;
+        border-radius: 10px;
+        font-family: "Source Sans 3";
+        font-size: 20px;
+        font-weight: 500;
+        margin-top: 40px;
+      }
+    }
+  }
+  footer {
+    margin-top: 100px;
+  }
+}

@@ -1,0 +1,52 @@
+.golfists {
+  .golfist-cards {
+    display: flex;
+    margin-left: 150px;
+    gap: 80px;
+    margin-top: 50px;
+
+    .golfist-card {
+      align-items: center;
+      text-align: center;
+      justify-content: center;
+
+      img {
+        margin-left: 25px;
+      }
+
+      h2 {
+        color: #2a4c51;
+        font-family: "Source Sans 3";
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 36px;
+        text-align: center;
+      }
+
+      p {
+        color: #18b3d4;
+        font-family: "Source Sans 3";
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 20px;
+        text-align: center;
+      }
+    }
+  }
+  .golfist-button {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    .golfist-btn {
+      background-color: #18b3d4;
+      color: white;
+      width: 170px;
+      height: 60px;
+      border-radius: 10px;
+      font-family: "Source Sans 3";
+      font-size: 20px;
+      font-weight: 500;
+      margin-top: 40px;
+    }
+  }
+}

@@ -1,0 +1,60 @@
+.info-posts {
+  .info-golf-cards {
+    margin-top: 50px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    gap: 30px;
+    .info-golf-card {
+      width: 274px;
+      height: 340px;
+      border-radius: 15px;
+      border: 0.6px solid silver;
+
+      img {
+        border-radius: 15px 15px 0 0;
+      }
+
+      .info-golf-text {
+        padding: 0px 0 0 20px;
+
+        p {
+          color: rgba(84, 98, 102, 1);
+          padding: 10px 0;
+          font-family: "Source Sans 3";
+          font-size: 14px;
+          line-height: 14px;
+          font-weight: 300;
+          line-height: 18px;
+          letter-spacing: 0.5px;
+        }
+
+        h4 {
+          font-family: "Source Sans 3";
+          font-size: 15px;
+          line-height: 14px;
+          font-weight: 700;
+          line-height: 18px;
+          color: rgba(42, 76, 81, 1);
+          letter-spacing: 0.5px;
+        }
+      }
+    }
+  }
+  .info-golf-button {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    .info-golf-btn {
+      background-color: #18b3d4;
+      color: white;
+      width: 170px;
+      height: 60px;
+      border-radius: 10px;
+      font-family: "Source Sans 3";
+      font-size: 20px;
+      font-weight: 500;
+      margin-top: 40px;
+    }
+  }
+}

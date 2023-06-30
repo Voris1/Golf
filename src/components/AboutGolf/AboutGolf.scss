@@ -1,0 +1,62 @@
+.about-golf {
+  background-color: rgb(44, 202, 141);
+  opacity: 0.06;
+  width: 100%;
+  height: 210px;
+}
+h1 {
+  color: rgba(84, 98, 102, 1);
+  padding: 10px 0;
+  font-family: "Source Sans 3";
+  font-size: 36px;
+  line-height: 20px;
+  font-weight: 600;
+  line-height: 18px;
+  letter-spacing: 0.8px;
+  position: absolute;
+  margin: 400px;
+  margin-top: 85px;
+}
+.glavniy{
+    color: rgba(84, 98, 102, 1);
+  padding: 15px 120px;
+  font-family: "Source Sans 3";
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 1px;
+  position: absolute;
+  word-spacing: 5px;
+}
+
+.about-post {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 100px;
+
+  .about-post-text {
+    width: 600px;
+
+    h2 {
+      color: rgba(42, 76, 81, 1);
+      font-family: "Source Sans 3";
+      font-size: 32px;
+      line-height: 20px;
+      font-weight: 600;
+      line-height: 40px;
+      letter-spacing: 0.8px;
+    }
+
+    p {
+      color: rgba(84, 98, 102, 1);
+      margin: 20px 0;
+      font-family: "Source Sans 3";
+      font-size: 24px;
+      line-height: 20px;
+      font-weight: 300;
+      line-height: 34px;
+      letter-spacing: 0.5px;
+    }
+  }
+}

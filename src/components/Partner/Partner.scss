@@ -1,0 +1,43 @@
+.partner {
+  .flag {
+    position: absolute;
+    margin-top: -200px;
+  }
+  .partner-text {
+    text-align: center;
+    margin-top: 50px;
+
+    h2 {
+      color: #2a4c51;
+      font-family: "Source Sans 3";
+      font-size: 36px;
+      font-weight: 700;
+      letter-spacing: 0.5px;
+      line-height: 54px;
+    }
+    p {
+      color: #2a4c51;
+      font-family: "Source Sans 3";
+      font-size: 24px;
+      font-weight: 300;
+      letter-spacing: 0.5px;
+      line-height: 36px;
+      width: 800px;
+      margin-left: 300px;
+      padding: 20px 0;
+    }
+  }
+  hr {
+    margin: 10px auto;
+    width: 1110px;
+    color: #c0ccda 10% #c0ccda 60% #c0ccda 10%;
+  }
+
+  .brands{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+    padding: 20px;
+  }
+}

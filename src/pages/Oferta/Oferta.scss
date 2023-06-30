@@ -1,0 +1,67 @@
+.oferta {
+  h1 {
+    margin-left: 550px;
+  }
+  .oferta-glavniy {
+    color: rgba(84, 98, 102, 1);
+    padding: 15px 120px;
+    font-family: "Source Sans 3";
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 1px;
+    position: absolute;
+    word-spacing: 5px;
+  }
+
+  .oferta-div {
+    margin-top: 50px;
+    align-items: center;
+
+    .oferta-content {
+        margin-top: 50px;
+      .oferta-h4 {
+        font-family: "Source Sans 3";
+        font-size: 26px;
+        line-height: 20px;
+        font-weight: 700;
+        line-height: 24px;
+        letter-spacing: 1px;
+        color: rgba(42, 76, 81, 1);
+        padding: 20px 0 0px 0;
+        margin-left: 340px;
+      }
+
+      .oferta-text {
+        padding-top: 30px;
+        margin: 0 auto;
+        width: 770px;
+        color: rgba(84, 98, 102, 1);
+        font-family: "Source Sans 3";
+        font-size: 24px;
+        line-height: 34px;
+        font-weight: 300;
+        line-height: 34px;
+        letter-spacing: 0.7px;
+      }
+
+      .oferta-icons {
+        display: flex;
+        align-items: center;
+        margin-left: 23.5%;
+        margin-top: 50px;
+
+        .icon {
+          padding-left: 30px;
+          color: #18b3d4;
+          font-size: 32px;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+  footer{
+    margin-top: 80px;
+  }
+}

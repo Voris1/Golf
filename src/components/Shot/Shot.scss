@@ -1,0 +1,42 @@
+.shot {
+    justify-content: center;
+    display: flex;
+    margin: 30px 0 0 50px;
+
+    .shot-content {
+      position: absolute;
+      margin: 80px 400px 0 0;
+
+      .shot-h2 {
+        color: #2a4c51;
+        font-family: "Source Sans 3";
+        font-size: 36px;
+        font-weight: 700;
+        letter-spacing: 0.5px;
+        line-height: 54px;
+        width: 600px;
+      }
+
+      .shot-p {
+        color: grey;
+        font-family: "Source Sans 3";
+        font-size: 24px;
+        font-weight: 300;
+        letter-spacing: 0.5px;
+        line-height: 36px;
+        width: 650px;
+        padding: 20px 0;
+      }
+
+      .shot-btn {
+        background-color: #18b3d4;
+        color: white;
+        width: 150px;
+        height: 60px;
+        border-radius: 10px;
+        font-family: "Source Sans 3";
+        font-size: 20px;
+        font-weight: 500;
+      }
+    }
+  }

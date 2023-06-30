@@ -1,0 +1,54 @@
+.info-golf {
+  .info-text {
+    background-color: rgb(44, 202, 141);
+    opacity: 0.06;
+    width: 100%;
+    height: 210px;
+  }
+  h1 {
+    color: rgba(84, 98, 102, 1);
+    padding: 10px 0;
+    font-family: "Source Sans 3";
+    font-size: 36px;
+    line-height: 20px;
+    font-weight: 600;
+    line-height: 18px;
+    letter-spacing: 0.8px;
+    position: absolute;
+    margin-left: 35%;
+    margin-top: 80px;
+  }
+
+  .glavniy{
+    color: rgba(84, 98, 102, 1);
+  padding: 15px 120px;
+  font-family: "Source Sans 3";
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 1px;
+  position: absolute;
+  word-spacing: 5px;
+}
+
+  .info-golf-button {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    .info-golf-btn {
+      background-color: #18b3d4;
+      color: white;
+      width: 170px;
+      height: 60px;
+      border-radius: 10px;
+      font-family: "Source Sans 3";
+      font-size: 20px;
+      font-weight: 500;
+      margin-top: 40px;
+    }
+  }
+  footer{
+    margin-top: 80px;
+  }
+}

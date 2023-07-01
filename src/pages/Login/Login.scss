@@ -1,0 +1,114 @@
+.login {
+  .logo {
+    display: flex;
+    margin-left: 8%;
+    margin-top: 10px;
+
+    p {
+      width: 70px;
+      font-weight: 300;
+      font-size: 14px;
+    }
+  }
+
+  .register {
+    width: 970px;
+    height: 560px;
+    background: rgba(241, 242, 246, 1);
+    border-radius: 24px;
+    z-index: 9999;
+    align-items: center;
+    justify-content: center;
+    margin: 60px auto 0;
+
+    .register-content {
+      display: flex;
+      img {
+        margin: -300px 100px 0 -100px;
+        position: sticky;
+        top: 25%;
+        width: 540px;
+        height: 580px;
+      }
+
+      .register-text {
+        width: 370px;
+        margin: 50px 30px 0 0;
+        h2 {
+          color: rgba(0, 0, 0, 1);
+          font-family: "Source Sans 3";
+          font-weight: 600;
+          font-size: 24px;
+          line-height: 36px;
+        }
+
+        p {
+          color: rgba(84, 98, 102, 1);
+          font-family: "Source Sans 3";
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 24px;
+          margin-top: 20px;
+        }
+        .register-input {
+          margin-top: 10px;
+          label {
+            display: block;
+            color: rgba(84, 98, 102, 1);
+            font-family: "Source Sans 3";
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 24px;
+            padding: 10px 0px;
+            letter-spacing: 0.5px;
+          }
+
+          input {
+            width: 370px;
+            height: 50px;
+            padding: 0 10px;
+            border-radius: 10px;
+          }
+
+          select {
+            width: 370px;
+            height: 50px;
+            padding: 0 10px;
+            border-radius: 10px;
+            font-size: 16px;
+            overflow: hidden;
+            background: url(images/downarrow_blue.png) no-repeat right white;
+          }
+        }
+
+        .register-btn {
+          background-color: #18b3d4;
+          color: white;
+          width: 370px;
+          height: 50px;
+          border-radius: 12px;
+          font-family: "Source Sans 3";
+          font-size: 20px;
+          font-weight: 500;
+          align-items: center;
+          justify-content: center;
+          display: flex;
+          margin-top: 30px;
+        }
+
+        .link {
+          color: rgba(84, 98, 102, 1);
+          font-family: "Source Sans 3";
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 24px;
+          margin-top: 30px;
+
+          span {
+            color: rgba(24, 179, 212, 1);
+          }
+        }
+      }
+    }
+  }
+}

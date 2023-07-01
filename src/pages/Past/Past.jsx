@@ -42,7 +42,7 @@ const Past = () => {
                   </Link>
 
                   <div className="past-select">
-                    <p>Прошедшие  события</p>
+                    <p>Прошедшие события</p>
                   </div>
                 </div>
               </div>
@@ -62,9 +62,10 @@ const Past = () => {
                   шанс зарегестрироваться на отборочный этап уже сегодня!
                 </p>
               </div>
-
               <img src={carousel_img} alt="img" />
-              <button className="item-btn">Посмотреть результаты</button>
+              <Link to={"/pastEvent"}>
+                <button className="item-btn">Посмотреть результаты</button>
+              </Link>{" "}
             </div>
             <div className="item">
               <div className="item-text">
@@ -74,9 +75,10 @@ const Past = () => {
                   шанс зарегестрироваться на отборочный этап уже сегодня!
                 </p>
               </div>
-
               <img src={carousel_img1} alt="img" />
-              <button className="item-btn">Посмотреть результаты</button>
+              <Link to={"/pastEvent"}>
+                <button className="item-btn">Посмотреть результаты</button>
+              </Link>
             </div>
             <div className="item">
               <div className="item-text">
@@ -86,9 +88,10 @@ const Past = () => {
                   шанс зарегестрироваться на отборочный этап уже сегодня!
                 </p>
               </div>
-
               <img src={carousel_img2} alt="img" />
-              <button className="item-btn">Посмотреть результаты</button>
+              <Link to={"/pastEvent"}>
+                <button className="item-btn">Посмотреть результаты</button>
+              </Link>
             </div>
           </div>
           <div className="past-items">
@@ -100,9 +103,10 @@ const Past = () => {
                   шанс зарегестрироваться на отборочный этап уже сегодня!
                 </p>
               </div>
-
               <img src={carousel_img} alt="img" />
-              <button className="item-btn">Посмотреть результаты</button>
+              <Link to={"/pastEvent"}>
+                <button className="item-btn">Посмотреть результаты</button>
+              </Link>{" "}
             </div>
             <div className="item">
               <div className="item-text">
@@ -112,9 +116,10 @@ const Past = () => {
                   шанс зарегестрироваться на отборочный этап уже сегодня!
                 </p>
               </div>
-
               <img src={carousel_img1} alt="img" />
-              <button className="item-btn">Посмотреть результаты</button>
+              <Link to={"/pastEvent"}>
+                <button className="item-btn">Посмотреть результаты</button>
+              </Link>{" "}
             </div>
             <div className="item">
               <div className="item-text">
@@ -126,7 +131,9 @@ const Past = () => {
               </div>
 
               <img src={carousel_img2} alt="img" />
-              <button className="item-btn">Посмотреть результаты</button>
+              <Link to={"/pastEvent"}>
+                <button className="item-btn">Посмотреть результаты</button>
+              </Link>
             </div>
           </div>
         </div>

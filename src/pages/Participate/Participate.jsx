@@ -18,7 +18,7 @@ const Participate = () => {
         <Header />
 
         <div className="partic-glavniy">
-          <Link to="/past">
+          <Link to="/event">
             {"Главный  >  Ближайшие События  >  “Кубок страны/5 этап"}
           </Link>
         </div>

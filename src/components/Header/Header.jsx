@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import { Link } from "react-router-dom";
 import "./Header.scss";
 import logo from "../../assets/logo.svg";
@@ -7,7 +7,7 @@ import line from "../../assets/line.png";
 const Header = () => {
   return (
     <>
-      <img src={line} alt="" />
+      <img src={line} alt="img" />
       <header>
         <div className="logo">
           <Link to="/">
@@ -36,7 +36,7 @@ const Header = () => {
             <Link to="/event" className="nav-ul-li">
               События
             </Link>
-            <Link to="" className="nav-ul-li-icon">
+            <Link to="/login" className="nav-ul-li-icon">
               <i className="fa-solid fa-user"></i>
               <p className="nav-ul-li">Войти в аккаунт</p>
             </Link>

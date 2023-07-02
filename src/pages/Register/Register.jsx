@@ -3,13 +3,14 @@ import "./Register.scss";
 import logo from "../../assets/logo.svg";
 import line from "../../assets/line.png";
 import { Link } from "react-router-dom";
-import register_img from "../../assets/regitr.svg";
+import register_img from "../../assets/player.png";
+import player from "../../assets/player_text.png";
 
 const Register = () => {
   return (
     <>
       <div className="register-page">
-        <img src={line} alt="" />
+        <img src={line} alt="img" />
         <div className="logo">
           <Link to="/">
             <img src={logo} alt="logo" />
@@ -20,7 +21,10 @@ const Register = () => {
 
         <div className="register">
           <div className="register-content">
-            <img src={register_img} alt="img" />
+            <div className="register-images">
+              <img src={player} alt="img" />
+              <img className="player" src={register_img} alt="img" />
+            </div>
 
             <div className="register-text">
               <h2>Добро пожаловать на сайт Федерации Гольфа Узбекистана</h2>
@@ -62,7 +66,7 @@ const Register = () => {
               </div>
               <div className="register-input">
                 <label>Пароль</label>
-                <input type="password" name="text" placeholder="•••••••••••"/>
+                <input type="password" name="text" placeholder="•••••••••••" />
               </div>
               <div className="register-input">
                 <label>Повторите пароль</label>

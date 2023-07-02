@@ -3,7 +3,8 @@ import "./Login.scss";
 import { Link } from "react-router-dom";
 import logo from "../../assets/logo.svg";
 import line from "../../assets/line.png";
-import register_img from "../../assets/regitr.svg";
+import register_img from "../../assets/player.png";
+import player from "../../assets/player_text.png";
 
 const Login = () => {
   return (
@@ -21,7 +22,10 @@ const Login = () => {
 
           <div className="register">
             <div className="register-content">
-              <img src={register_img} alt="img" />
+              <div className="register-images">
+                <img src={player} alt="img" />
+                <img className="player" src={register_img} alt="img" />
+              </div>
 
               <div className="register-text">
                 <h2>Добро пожаловать на сайт Федерации Гольфа Узбекистана</h2>
@@ -42,8 +46,13 @@ const Login = () => {
 
                 <div className="register-input">
                   <label>Пароль</label>
-                  <input type="password" name="text" minLength={3} required 
-                  placeholder="•••••••••••"/>
+                  <input
+                    type="password"
+                    name="text"
+                    minLength={3}
+                    required
+                    placeholder="•••••••••••"
+                  />
                 </div>
 
                 <button className="register-btn">

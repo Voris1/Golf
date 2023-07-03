@@ -61,7 +61,7 @@ const Login = () => {
 
                 <div className="link">
                   <Link to={"/register"}>
-                    Есть аккаунт? <span> Войдите в аккаунт</span>
+                    Нет аккаунта? <span> Зарегестироваться</span>
                   </Link>
                 </div>
               </div>
